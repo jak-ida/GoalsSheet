@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="BingoGoals.css"/>
+    <link type="text/css" rel="stylesheet" href="../Bootstrap/bootstrap-5.0.2/dist/css/bootstrap.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale:1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title> Bingo Goals Sheet</title>
+</head>
+<body>
+    <div class="border">
+        <div class="header">
+            <h2> <h2 contenteditable="true">Insert Name</h2>'s Goals for 2023</h2>
+            <!--<p type="button" class="Edit" data-bs-toggle ="modal" data-bs-target="#Modale" Onclick="editdetails()"> Edit </p>-->
+         </div>
+    
+        <div class="border1">
+            <div class="rooh">
+                <div class="colu-3 border2 border2-text" id="btn1" ondblclick="Button('btn1')" > <p id="bt1" contenteditable="true">Enter New Goal</p> </div>
+                <div class="colu-3 border2 border2-text" id="btn2" ondblclick="Button('btn2')"> <p contenteditable="true">Enter New Goal</p> </div>
+                <div class="colu-3 border2 border2-text" id="btn3" ondblclick="Button('btn3')"> <p contenteditable="true">Enter New Goal</p> </div>
+                <div class="colu-3 border2 border2-text" id="btn4" ondblclick="Button('btn4') "><p contenteditable="true">Enter New Goal</p> </div>
+            </div>
+
+            <div class="rooh">
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn5')" id="btn5"> <p contenteditable="true">Enter New Goal</p> </div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn6')" id="btn6"><p contenteditable="true">Enter New Goal</p> </div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn7')" id="btn7"> <p contenteditable="true"> Enter New Goal </p></div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn8')" id="btn8"><p contenteditable="true">Enter New Goal</p> </div>
+            </div>
+
+            <div class="rooh">
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn9')" id="btn9"> <p contenteditable="true"> Enter New Goal</p></div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn10')" id="btn10"> <p contenteditable="true">Enter New Goal</p> </div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn11')" id="btn11"> <p contenteditable="true">Enter New Goal </p></div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn12')" id="btn12"> <p contenteditable="true">Enter New Goal</p></div>
+            </div>
+
+            <div class="rooh">
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn13')" id="btn13"> <p contenteditable="true">Enter New Goal</p></div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn14')" id="btn14"> <p contenteditable="true">Enter New Goal</p></div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn15')" id="btn15"> <p contenteditable="true">Enter New Goal</p></div>
+                <div class="colu-3 border2 border2-text" ondblclick="Button('btn16')" id="btn16"> <p contenteditable="true">Enter New Goal</p> </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-backdrop" id="Modale" tabindex="-1" >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Goal's Sheet Usage Instructions</h5>
+                </div>
+                <div class="modal-body">
+                    <ol>
+                        <li>Insert your Name by clicking on the Name in the Header</li>
+                        <li> Click each goal once to edit it, click elsewhere to save your changes </li>
+                        <li> Double click on each goal to mark it as "Complete"</li>
+                        <li> Have Fun!!</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="md()">Close</button>
+                </div>
+            </div>  
+        </div>
+    </div>
+
+<script type="text/javascript" src="../Bootstrap/bootstrap-5.0.2/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="BingoGoals.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+p{
+    font-family: serif!important;
+    margin-bottom:0rem!important;
+    
+}
+div:focus, p:focus{
+   outline: none!important;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+.rooh {
+ display: grid;
+ grid-template-columns: repeat(12, 1fr);
+ grid-gap: 0px;
+}
+
+.colu-3 {
+  grid-column: auto/span 3;
+}
+
+#Modale{
+    display:block;
+}
+.modal-backdrop{
+    opacity:0.9!important;
+}
+
+.border{
+    padding:15px;
+    border:none;
+    background-color: #fef9f0;
+    height:825px;
+}
+
+.border1{
+    padding:10px;
+    color:lightsalmon;
+    height:715px;
+}
+.header{
+    text-align:center;
+    padding:15px ;
+    background-color:lightsalmon;
+    color:white;
+    font-size:50px;
+    font-style:italic!important;
+    font-family: fantasy!important;
+}
+.header h2{
+    font-size:50px;
+    display:inline;
+}
+
+.border2{
+    padding:7px;
+    margin:20px;
+    box-shadow: 5px 10px 5px;
+    background-color:white;
+    text-align:center;
+    height:120px;
+}
+.border2-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size:29px;
+}
+.border2-text:hover{
+    border-radius: 2rem;
+}
+
+@media screen and (min-width:767px) and (max-width:1023px){
+    .header{
+        font-size:45px;
+        display:block;
+    }
+    .header h2{
+        font-size:45px;
+       display:inline;
+    }
+    
+    .border{
+        height:810px;
+    }
+    .border1{
+        height:700px;
+    }
+    .border2-text{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size:19px;
+        height:120px;
+    }
+    
+} 
+@media screen and (max-width:767px){
+    .header h2{
+        font-size:35px;
+       display:inline;
+    }
+    .header{
+        font-size:40px;
+        display:block;
+    }
+    .border{
+        height:610px;
+    }
+    .border1{
+        height:610px;
+    }
+    .border2-text{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        font-size:19px;
+        height:80px;
+    }
+    
+    
+   
+}
